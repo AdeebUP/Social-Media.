@@ -16,7 +16,7 @@ const InfoCard = () => {
                         onClick={() => setModalOpened(true)} />
                     <ProfileModal
                         modalOpened={modalOpened}
-                        setModelOpened={setModalOpened}
+                        setModalOpened={setModalOpened}
                     />
                 </div>
             </div>
